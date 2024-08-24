@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "AI_Shooter_UE Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UE Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UE Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Development",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Development",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UE Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Development",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Test",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Test",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UE Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Test",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Shipping",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Shipping",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UE Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UE Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UE",
+				"Win64",
+				"Shipping",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UEEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"Debug",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UEEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"DebugGame",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"Development",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"Development",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"AI_Shooter_UEEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		},
+		{
+			"label": "AI_Shooter_UEEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"AI_Shooter_UEEditor",
+				"Win64",
+				"Development",
+				"H:\\Unreal Projects\\AI_Shooter_UE\\AI_Shooter_UE.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\UE_5.1"
+			}
+		}
+	]
+}
